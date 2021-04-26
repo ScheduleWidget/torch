@@ -223,7 +223,7 @@ defmodule Torch.FilterView do
   defp torch_date_input(name, value) do
     tag(
       :input,
-      type: "text",
+      type: "date",
       class: "datepicker",
       name: name,
       value: value,
